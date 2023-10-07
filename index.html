@@ -1,11 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Portfolio</title>
 </head>
+
 <body>
-    Hello world
+
+    <header>
+        <h1 >Welcome to My Portfolio </h1>
+        <img src="./images/adeel.jpg" alt="Profile Picture" height="170" width="170">
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li> <a href="#resume">Resume</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li> <a href="#contact">Contact</a></li>
+            </ul>
+            
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2 style="background-color: yellowgreen;">About Me</h2>
+        <p>
+            Hello! My name is Adeel Haider, and I am passionate about the ever-evolving world of computer science. I am currently pursuing my studies in computer science, where my curiosity and enthusiasm drive my academic endeavors.I find immense joy in exploring the intricate complexities of algorithms, programming languages, and the innovative technologies shaping our digital landscape.
+        </p>
+        <h3>Skills</h3>
+        <ul>
+            <li>Communication Skills</li>
+            <li>Team Work</li>
+            <li>Consistency</li>
+        </ul>
+        <h3>Achievements</h3>
+        <p>Awarded Best Student in 2026.<br></p>
+    </section>
+
+    <section id="resume">
+        <h2 style="background-color: yellowgreen;">Resume</h2>
+        <h3><u>Education</u></h3>
+        <p>
+            <ul>
+                <li>Matric in 2019 <br>
+                    APS Peshawar</li>
+                <li>Fsc in 2021 <br>
+                    GCCK Kohat</li>
+                <li>BS Computer Science<br>
+                    UET Peshawar ,Graduated 2026</li>
+                </ul>
+            
+        </p>
+        <h3><u>Experience</u> </h3>
+        <p>
+            <ul>
+                <li><strong>Computer Scientist</strong> at Google</li>
+                <li>Data Anaylyst at IBM</li>
+                <li>AI specialist at Facebook</li>
+            </ul>
+            <br>
+        </p>
+        <h3><u>Technical Skills</u></h3>
+        <ul>
+            <li><b>Programming Languages:</b> Java, Python, C++Programming Languages: Java, Python, C++</li>
+            <li><b>Web Development:</b> HTML, CSS, JavaScript, React.js</li>
+            <li><b>Database Management:</b> MySQL, MongoDB, Firebase</li>
+            <li><b>Tools & Technologies:</b> Git, Docker, Node.js, Express.js</li>
+        </ul>
+        <h3><u>Projects</u></h3>
+        <p>
+            <strong>Mobile App</strong><br>
+            <ul>
+                <li><b>Project Description:</b> Developed a user-friendly mobile application for task management, allowing users to create, update, and prioritize tasks efficiently.</li>
+                <li><b>Technologies used:</b> React Native, Firebase, Redux</li>
+                <li><b>Project Outcome:</b> Increased online sales by 30%, enhanced user experience, and optimized website performance.</li>
+            </ul>
+            
+        </p>
+        <button style="background-color: lightblue;"><a href="./Resume/resume.pdf" download>Download Resume (PDF)</a></button>
+    </section>
+
+    <section id="portfolio">
+        <h2 style="background-color: yellowgreen;">Portfolio</h2>
+        <div>
+            <h3><u>Research Projects</u></h3>
+            <p>
+                <strong>Machine Learning</strong><br>
+                <ul>
+                    <li><b>Project Description:</b> Conducted in-depth research on machine learning algorithms for sentiment analysis, exploring their applications in social media data.</li>
+                    <li><b>Technologies used:</b> Python, scikit-learn, Natural Language Processing (NLP)<li><b>Project Outcome:</b> Published research paper in a peer-reviewed journal, presenting novel insights into sentiment analysis techniques.</li>
+                </ul>
+            </p>
+            <img src="./images/ML.png" alt="ML Project">
+        </div>
+        <div>
+            <h3><u>Web Development Projects</u></h3>
+            <p>
+                <strong>Blogging</strong><br>
+                <ul>
+                    <li><b>Project Description:</b> Developed a dynamic blogging platform, allowing users to create, edit, and publish articles. Implemented user authentication and interactive comment sections.</li>
+                    <li><b>Technologies used:</b> HTML, CSS, JavaScript, Express.js, MongoDB</li>
+                    <li><b>Project Outcome:</b> Increased user engagement, attracted a growing community of writers, and received positive reviews for the intuitive user interface.
+                    </li>
+                </ul>
+            </p>
+            <img src="./images/blog.jpg" alt="Web Project" height="500" width="800">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 style="background-color: yellowgreen;">Contact Me</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="subject">Subject:</label><br>
+            <input type="text" id="subject" name="subject" required><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" required rows="5" cols="30"></textarea><br>
+            <button type="submit">Submit</button>
+        </form>
+        <br>
+        <br>
+        <h4>Email: 22pwbcs0914@gmail.com</h4>
+        <a href="https://www.linkedin.com/in/adeel-haider-841ab3260/"><img src="./images/Linkedln.png" height="16" width="16"> My Linkedln</a><br>
+        <a href="https://www.facebook.com"><img src="./images/facebook.png" height="16" width="16"> Facebook</a><br>
+        <a href="https://github.com/Adeel-Haider-03"><img src="./images/github.png" height="16" width="16"> Github</a>
+    </section>
+
+    <footer>
+        <p style="text-align: center;">&copy; 2023 My Portfolio. All rights reserved.</p>
+    </footer>
+
 </body>
+
 </html>
